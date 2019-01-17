@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/ivlogo"
+        android:layout_width="1500px"
+        android:layout_height="137dp"
+        android:layout_marginBottom="80px"
+        android:layout_gravity="center"
+        android:padding="15dp"
+        android:src="@drawable/recovery" />
+
+    <Button
+
+        android:id="@+id/btn1"
+        android:background="@color/white"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:padding="25dp"
+        android:text="Sudoku Activity" />
+    <Button
+        android:id="@+id/btn2"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:text="Button2"
+        android:padding="25dp"
+        android:layout_margin="15dp"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:text="Button3"
+        android:padding="25dp"
+        android:layout_margin="15dp"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:background="@color/white"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="17dp"
+        android:padding="25dp"
+        android:text="Button4" />
+
+</LinearLayout>
