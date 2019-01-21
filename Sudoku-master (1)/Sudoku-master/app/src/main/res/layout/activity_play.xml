@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+     android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:layout_margin="150px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:text="Which one is your relatives?"
+            android:textSize="24dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:onClick="imageAClick"
+            android:id="@+id/imageA"
+            android:clickable="true"
+            android:layout_margin="10px"
+            android:layout_width="400px"
+            android:layout_height="400px"
+
+            />
+        <ImageButton
+            android:id="@+id/imageB"
+            android:clickable="true"
+            android:layout_margin="10px"
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:src="@drawable/download"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/imageC"
+            android:clickable="true"
+            android:layout_margin="10px"
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:src="@drawable/download"
+
+            />
+        <ImageButton
+            android:id="@+id/imageD"
+            android:clickable="true"
+            android:layout_margin="10px"
+            android:layout_width="400px"
+            android:layout_height="400px"
+            android:src="@drawable/download"
+
+            />
+
+    </LinearLayout>
+    
+
+    
+    
+</LinearLayout>

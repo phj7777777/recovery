@@ -26,6 +26,32 @@ public class MenuActivity extends AppCompatActivity {
                 MenuActivity.this.startActivity(intent);
             }
         });
+        btn2 = (Button)findViewById(R.id.btn2);
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, FamilyDetails.class);
+                MenuActivity.this.startActivity(intent);
+            }
+        });
+        btn3 = (Button)findViewById(R.id.btn3);
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, ImageActivity.class);
+                MenuActivity.this.startActivity(intent);
+            }
+        });
+
+        btn4 = (Button)findViewById(R.id.btn4);
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MenuActivity.this, PlayActivity.class);
+                MenuActivity.this.startActivity(intent);
+            }
+        });
 
     }
 }

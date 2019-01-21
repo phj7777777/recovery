@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/skyblue"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+
+        android:src="@drawable/family"
+        android:id="@+id/imgFamily"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:layout_above="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:layout_margin="100px"
+        android:id="@+id/btnPlay"
+        android:text="Play"
+        android:background="@color/white"
+        android:layout_centerInParent="true"
+        android:layout_width="300px"
+        android:layout_height="wrap_content" />
+    <Button
+
+        android:layout_margin="100px"
+        android:background="@color/white"
+        android:id="@+id/btnQuestion"
+        android:text="Set identity question"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/btnPlay"
+        android:layout_width="300px"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
